@@ -1,0 +1,3 @@
+name: Heroku Git connector
+description: Connect to Heroku git repo
+author: https://github.com/benoitmugnier

@@ -1,0 +1,4 @@
+#!/bin/bash
+set -ueo pipefail
+
+echo -e "machine api.heroku.com\n  login ${HEROKU_EMAIL}\n  password ${HRK_API_KEY}\nmachine git.heroku.com\n  login ${HEROKU_EMAIL}\n  password ${HRK_API_KEY}\n" > ~/.netrc
